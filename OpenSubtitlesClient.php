@@ -13,7 +13,6 @@ declare(strict_types=1);
 namespace KickAssSubtitles\OpenSubtitles;
 
 use Exception;
-use function Safe\file_get_contents;
 
 /**
  * @method OpenSubtitlesApiResponse logIn(string $username, string $password, string $language, string $useragent)
